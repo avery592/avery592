@@ -64,7 +64,7 @@ making it an attractive foundation for cryptographic identity for a developer
 like myself.
 
 # Tips/Donations
-If you like what I do, you can [send Monero][5] to the following address:
+If you like what I do, you can <a href="monero:47averyEStBZhvddZqJPVPRXC9NRxT56vXwpRxSXHLrf6r4WDJdnGCbFPnqgn1noQmfLhZfgcWZiqWbgwjWoFkCLBtkq2iB?recipient_name=Avery">send Monero</a> to the following address:
 `47averyEStBZhvddZqJPVPRXC9NRxT56vXwpRxSXHLrf6r4WDJdnGCbFPnqgn1noQmfLhZfgcWZiqWbgwjWoFkCLBtkq2iB`.
 
 [0]: https://www.agwa.name/blog/post/ssh_signatures
@@ -72,4 +72,3 @@ If you like what I do, you can [send Monero][5] to the following address:
 [2]: https://signal.org/
 [3]: https://github.com/str4d/rage
 [4]: https://www.latacora.com/blog/2019/07/16/the-pgp-problem/
-[5]: monero:47averyEStBZhvddZqJPVPRXC9NRxT56vXwpRxSXHLrf6r4WDJdnGCbFPnqgn1noQmfLhZfgcWZiqWbgwjWoFkCLBtkq2iB?recipient_name=Avery
