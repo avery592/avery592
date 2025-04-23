@@ -5,6 +5,10 @@ Use Tor 🧅, use [SimpleX][1] 🗨, use [Monero][4] 🪙.
 # Private Messages
 You can message me privately on [SimpleX][1].
 
+# Tips
+If you like what I do, you can easily [send Monero][4] to the following address:
+`47averyEStBZhvddZqJPVPRXC9NRxT56vXwpRxSXHLrf6r4WDJdnGCbFPnqgn1noQmfLhZfgcWZiqWbgwjWoFkCLBtkq2iB`.
+
 # Cryptographic Identity
 You can verify you're talking to me or that I wrote something (like this
 document!) with SSH signatures. The following SSH fingerprint is mine, and
@@ -68,10 +72,6 @@ I've chosen to use SSH over PGP because it is widely considered secure by
 cryptographers [unlike PGP][3], and has good tools for signatures in git,
 making it an attractive foundation for cryptographic identity for a developer
 like myself.
-
-# Tips/Donations
-If you like what I do, you can easily [send Monero][4] to the following address:
-`47averyEStBZhvddZqJPVPRXC9NRxT56vXwpRxSXHLrf6r4WDJdnGCbFPnqgn1noQmfLhZfgcWZiqWbgwjWoFkCLBtkq2iB`.
 
 [0]: https://www.agwa.name/blog/post/ssh_signatures
 [1]: https://simplex.chat/contact#/?v=2-7&smp=smp%3A%2F%2Fhejn2gVIqNU6xjtGM3OwQeuk8ZEbDXVJXAlnSBJBWUA%3D%40smp16.simplex.im%2F1OEUQxz8c4HJKA9_ve-4WMf2iptN6BvV%23%2F%3Fv%3D1-3%26dh%3DMCowBQYDK2VuAyEARRx2AqVbSeJ3-_HSE5D-MvBfqG2BpJIF28apdMPuHTY%253D%26srv%3Dp3ktngodzi6qrf7w64mmde3syuzrv57y55hxabqcq3l5p6oi7yzze6qd.onion
