@@ -2,10 +2,14 @@ Cypherpunk anarchist software developer 🏴. I like Rust 🦀 and Nix ❄️.
 
 Use Tor 🧅, use [SimpleX][1] 🗨, use [Monero][4] 🪙.
 
+# Private Messages
+You can message me privately on [SimpleX][1].
+
 # Cryptographic Identity
-You can verify you're talking to me or that I wrote something with SSH
-signatures. The following SSH fingerprint is mine, and all my git commits
-are signed with it: `SHA256:avery1FYMMQQsL00uBtkTn1yLej4kZ+M7cdttNchWeQ`.
+You can verify you're talking to me or that I wrote something (like this
+document!) with SSH signatures. The following SSH fingerprint is mine, and
+all my git commits are signed with it:
+`SHA256:avery1FYMMQQsL00uBtkTn1yLej4kZ+M7cdttNchWeQ`.
 And here is the corresponding public key file:
 ```
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIC/emPms+RPqHCckMTkE7pemmV4MW3eMBMHsRwZ/pDUw
