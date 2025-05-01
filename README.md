@@ -5,6 +5,8 @@ You can message me privately on [SimpleX][1].
 If you like what I do, you can easily [send Monero][4] to the following address:
 `47averyEStBZhvddZqJPVPRXC9NRxT56vXwpRxSXHLrf6r4WDJdnGCbFPnqgn1noQmfLhZfgcWZiqWbgwjWoFkCLBtkq2iB`.
 
+<img src="static/monero-address.webp" width=25% alt="My Monero address as a QR code">
+
 # 🪪 Cryptographic Identity
 You can verify you're talking to me or that I wrote something (like this
 document!) with SSH signatures. The following SSH fingerprint is mine, and
