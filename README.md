@@ -1,6 +1,8 @@
 # 🗨 Private Messages
 You can message me privately on [SimpleX][1].
 
+<img src="static/simplex-address.webp" width=25% alt="My SimpleX address as a QR code">
+
 # 🪙 Tips
 If you like what I do, you can easily [send Monero][4] to the following address:
 `47averyEStBZhvddZqJPVPRXC9NRxT56vXwpRxSXHLrf6r4WDJdnGCbFPnqgn1noQmfLhZfgcWZiqWbgwjWoFkCLBtkq2iB`.
