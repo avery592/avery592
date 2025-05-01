@@ -79,6 +79,9 @@ like myself.
 # 🐘 Fediverse
 You can <a rel="me" href="https://kolektiva.social/@avery">follow me</a> on Mastodon.
 
+# 🐱 GitHub
+You can <a rel="me" href="https://github.com/avery592">follow me</a> on GitHub.
+
 # 🪙 Tips
 If you like what I do, you can easily [send Monero][4] to the following address:
 `47averyEStBZhvddZqJPVPRXC9NRxT56vXwpRxSXHLrf6r4WDJdnGCbFPnqgn1noQmfLhZfgcWZiqWbgwjWoFkCLBtkq2iB`.
