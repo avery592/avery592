@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="index, follow">
+        
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="https://avery.st/rss.xml">
+        
+        <title></title>
+
+        <link rel="preload" href="https://avery.st/css/style.css" as="style">
+        <link rel="stylesheet" href="https://avery.st/css/reset-min.css">
+        <link rel="stylesheet" href="https://avery.st/css/suCSS-min.css">
+        <link rel="stylesheet" href="https://avery.st/css/style.css">
+        <link rel="stylesheet" href="https://avery.st/css/custom.css">
+
+        <!-- Add favicon with appropriate sizes -->
+        <link rel="icon" href="https:&#x2F;&#x2F;avery.st/profile.webp">
+    </head>
+    <body>
+        
+        
+        
+        
+        <nav id="nav-bar">
+            
+            <a href="&#x2F;" class="">
+                
+                &#x2F;home&#x2F;
+            </a>
+            
+            <a href="&#x2F;writings" class="">
+                
+                &#x2F;writings&#x2F;
+            </a>
+            
+
+            <div class="theme-toggle" id="theme-toggle" role="button" tabindex="0" aria-label="Toggle theme"
+                data-icon-base="https://avery.st/icons.svg"
+                data-icon-dark="#darkMode"
+                data-icon-light="#lightMode"
+                data-sound-src="https://avery.st/click.ogg">
+                <svg class="icon">
+                    <use id="theme-icon"></use>
+                </svg>
+            </div>
+        </nav>
+
+        <main>
+            
+    <img src="profile.webp" width=50% alt="A person sits in a dimly lit room facing away. In front of them are four computer monitors displaying code. Beyond that a window opens up to show a cyberpunk city skyline at night.">
+<p>Your friendly neighborhood cypherpunk anarchist software developer 🏴. I like Rust 🦀 and Nix ❄️. Use Tor 🧅, use SimpleX 🗨, use Monero 🪙.</p>
+<h1 id="identification-card-cryptographic-identity">🪪 Cryptographic Identity</h1>
+<p>You can verify you're talking to me or that I wrote something (like this
+document!) with SSH signatures. The following SSH fingerprint is mine, and
+all my git commits are signed with it:</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>SHA256:avery1FYMMQQsL00uBtkTn1yLej4kZ+M7cdttNchWeQ
+</span></code></pre>
+<p>And here is the corresponding public key file:</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIC/emPms+RPqHCckMTkE7pemmV4MW3eMBMHsRwZ/pDUw
+</span></code></pre>
+<h2 id="black-nib-signatures">✒️ Signatures</h2>
+<p>To verify something was signed by me, add the following line to <code>~/.ssh/allowed_signers</code>:</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>avery@avery.st ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIC/emPms+RPqHCckMTkE7pemmV4MW3eMBMHsRwZ/pDUw
+</span></code></pre>
+<h3 id="tools-git-signatures">🛠️ Git Signatures</h3>
+<p>Git will now verify commit signatures, for example in my <code>mrr</code> project:</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>$ git log --show-signature
+</span><span>commit 215a002a33a4f1beb4a266d09231e66d1bb774f8 (HEAD -&gt; main, origin/main)
+</span><span>Good &quot;git&quot; signature for avery@avery.st with ED25519 key SHA256:avery1FYMMQQsL00uBtkTn1yLej4kZ+M7cdttNchWeQ
+</span><span>Author: Avery &lt;avery@avery.st&gt;
+</span><span>Date:   Sun Apr 20 17:37:14 2025 -0500
+</span><span>
+</span><span>    Implement vanity SSH key generator
+</span></code></pre>
+<h3 id="page-facing-up-file-message-signatures">📄 File/Message Signatures</h3>
+<p>If I send you a file <code>message</code> with a corresponding signature file
+<code>message.sig</code>, you can verify it as follows:</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>$ ssh-keygen -Y verify -f ~/.ssh/authorized_signers -I avery@avery.st -n file -s file.md.sig &lt; file.md
+</span><span>Good &quot;file&quot; signature for avery@avery.st with ED25519 key SHA256:avery1FYMMQQsL00uBtkTn1yLej4kZ+M7cdttNchWeQ
+</span></code></pre>
+<p>More information about SSH signatures for arbitrary files can be found
+<a href="https://www.agwa.name/blog/post/ssh_signatures">here</a>.</p>
+<h2 id="key2-encryption">🗝️ Encryption</h2>
+<h3 id="speech-left-private-messages">🗨 Private Messages</h3>
+<p>If you need to reach out to me privately, please contact me on <a href="https://simplex.chat/contact#/?v=2-7&amp;smp=smp%3A%2F%2Fhejn2gVIqNU6xjtGM3OwQeuk8ZEbDXVJXAlnSBJBWUA%3D%40smp16.simplex.im%2F1OEUQxz8c4HJKA9_ve-4WMf2iptN6BvV%23%2F%3Fv%3D1-3%26dh%3DMCowBQYDK2VuAyEARRx2AqVbSeJ3-_HSE5D-MvBfqG2BpJIF28apdMPuHTY%253D%26srv%3Dp3ktngodzi6qrf7w64mmde3syuzrv57y55hxabqcq3l5p6oi7yzze6qd.onion">SimpleX</a>
+for secure, end-to-end encrypted messaging.</p>
+<img src="simplex-address.webp" width=25% alt="My SimpleX address as a QR code">
+<h3 id="envelope-email">✉️ Email</h3>
+<p>If you must contact me some other way, like over email, you can also encrypt a
+message to my SSH key using a tool like <a href="https://github.com/str4d/rage">rage</a>. If you put my public key in
+a file called <code>avery.pub</code> with the following contents:</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIC/emPms+RPqHCckMTkE7pemmV4MW3eMBMHsRwZ/pDUw
+</span></code></pre>
+<p>Then the following command given a file <code>message</code> encrypts the contents to a
+file called <code>message.age</code> that only my private SSH key can decrypt:</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>$ rage -R avery.pub message &gt; message.age
+</span></code></pre>
+<p>Attach <code>message.age</code> in your email to me and leave the body of your email and
+the subject line empty to minimize metadata.</p>
+<h2 id="why-not-pgp">❓ Why not PGP?</h2>
+<p>I've chosen to use SSH over PGP because it is widely considered secure by
+cryptographers <a href="https://www.latacora.com/blog/2019/07/16/the-pgp-problem/">unlike PGP</a>, and has good tools for signatures in git,
+making it an attractive foundation for cryptographic identity for a developer
+like myself.</p>
+<h1 id="coin-tips">🪙 Tips</h1>
+<p>If you like what I do, you can easily <a href="https://trocador.app/anonpay/?ticker_to=xmr&amp;network_to=Mainnet&amp;address=47averyEStBZhvddZqJPVPRXC9NRxT56vXwpRxSXHLrf6r4WDJdnGCbFPnqgn1noQmfLhZfgcWZiqWbgwjWoFkCLBtkq2iB&amp;donation=True&amp;simple_mode=True&amp;name=Avery&amp;email=avery@avery.st&amp;ticker_from=xmr&amp;network_from=Mainnet&amp;bgcolor=000000ff">send Monero</a> to the following address:
+<code>47averyEStBZhvddZqJPVPRXC9NRxT56vXwpRxSXHLrf6r4WDJdnGCbFPnqgn1noQmfLhZfgcWZiqWbgwjWoFkCLBtkq2iB</code>.</p>
+<img src="monero-address.webp" width=25% alt="My Monero address as a QR code">
+
+
+    
+
+    
+
+        </main>
+
+        <footer>
+            <hr>
+<div id="footer-container">
+    <p>Made using <a target="_blank" rel="noopener noreferrer" href="https://github.com/Speyll/anemone">anemone</a> Zola theme</p>
+</div>
+
+        </footer>
+
+        <!-- Move JS to end of body and add defer -->
+        <script src="https://avery.st/js/script.js" defer></script>
+    </body>
+</html>
