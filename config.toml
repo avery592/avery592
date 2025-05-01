@@ -1,0 +1,18 @@
+base_url = "https://avery.st"
+theme = "anemone"
+compile_sass = false
+minify_html = false
+generate_feeds = true
+generate_sitemap = true
+
+[markdown]
+highlight_code = true
+
+[extra]
+favicon = "profile.webp"
+header_nav = [
+  { url = "/", name_en = "/home/" },
+  { url = "/writings", name_en = "/writings/" },
+  # Add RSS once there's at least one post.
+  # { url = "/atom.xml", name_en = "/rss/" }
+]

@@ -1,8 +1,17 @@
++++
++++
+
+<img src="profile.webp" width=50% alt="A person sits in a dimly lit room facing away. In front of them are four computer monitors displaying code. Beyond that a window opens up to show a cyberpunk city skyline at night.">
+
+Your friendly neighborhood cypherpunk anarchist software developer 🏴. I like Rust 🦀 and Nix ❄️. Use Tor 🧅, use SimpleX 🗨, use Monero 🪙.
+
 # 🪪 Cryptographic Identity
 You can verify you're talking to me or that I wrote something (like this
 document!) with SSH signatures. The following SSH fingerprint is mine, and
 all my git commits are signed with it:
-`SHA256:avery1FYMMQQsL00uBtkTn1yLej4kZ+M7cdttNchWeQ`.
+```
+SHA256:avery1FYMMQQsL00uBtkTn1yLej4kZ+M7cdttNchWeQ
+```
 And here is the corresponding public key file:
 ```
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIC/emPms+RPqHCckMTkE7pemmV4MW3eMBMHsRwZ/pDUw
@@ -42,7 +51,7 @@ More information about SSH signatures for arbitrary files can be found
 If you need to reach out to me privately, please contact me on [SimpleX][1]
 for secure, end-to-end encrypted messaging.
 
-<img src="static/simplex-address.webp" width=25% alt="My SimpleX address as a QR code">
+<img src="simplex-address.webp" width=25% alt="My SimpleX address as a QR code">
 
 ### ✉️ Email
 If you must contact me some other way, like over email, you can also encrypt a
@@ -61,7 +70,7 @@ $ rage -R avery.pub message > message.age
 Attach `message.age` in your email to me and leave the body of your email and
 the subject line empty to minimize metadata.
 
-## ❓Why not PGP?
+## ❓ Why not PGP?
 I've chosen to use SSH over PGP because it is widely considered secure by
 cryptographers [unlike PGP][3], and has good tools for signatures in git,
 making it an attractive foundation for cryptographic identity for a developer
@@ -71,7 +80,7 @@ like myself.
 If you like what I do, you can easily [send Monero][4] to the following address:
 `47averyEStBZhvddZqJPVPRXC9NRxT56vXwpRxSXHLrf6r4WDJdnGCbFPnqgn1noQmfLhZfgcWZiqWbgwjWoFkCLBtkq2iB`.
 
-<img src="static/monero-address.webp" width=25% alt="My Monero address as a QR code">
+<img src="monero-address.webp" width=25% alt="My Monero address as a QR code">
 
 [0]: https://www.agwa.name/blog/post/ssh_signatures
 [1]: https://simplex.chat/contact#/?v=2-7&smp=smp%3A%2F%2Fhejn2gVIqNU6xjtGM3OwQeuk8ZEbDXVJXAlnSBJBWUA%3D%40smp16.simplex.im%2F1OEUQxz8c4HJKA9_ve-4WMf2iptN6BvV%23%2F%3Fv%3D1-3%26dh%3DMCowBQYDK2VuAyEARRx2AqVbSeJ3-_HSE5D-MvBfqG2BpJIF28apdMPuHTY%253D%26srv%3Dp3ktngodzi6qrf7w64mmde3syuzrv57y55hxabqcq3l5p6oi7yzze6qd.onion

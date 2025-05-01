@@ -1,0 +1,6 @@
+# Pulled in by Nix
+/themes
+# Built by Nix
+/result
+# Built by Zola
+/public
