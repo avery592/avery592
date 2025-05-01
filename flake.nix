@@ -26,7 +26,7 @@
       mkdir -p themes
       ln -snf "${anemone}" "themes/anemone"
     '';
-    package = pkgs: pkgs.callPackage ./default.nix {inherit anemone; inherit linkThemes;};
+    package = pkgs: pkgs.callPackage ./default.nix {inherit linkThemes;};
   in
     (flake-utils.lib.eachDefaultSystem (system: let
       pkgs = import nixpkgs {
