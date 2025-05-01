@@ -76,6 +76,9 @@ cryptographers [unlike PGP][3], and has good tools for signatures in git,
 making it an attractive foundation for cryptographic identity for a developer
 like myself.
 
+# 🐘 Fediverse
+You can <a rel="me" href="https://kolektiva.social/@avery">follow me</a> on Mastodon.
+
 # 🪙 Tips
 If you like what I do, you can easily [send Monero][4] to the following address:
 `47averyEStBZhvddZqJPVPRXC9NRxT56vXwpRxSXHLrf6r4WDJdnGCbFPnqgn1noQmfLhZfgcWZiqWbgwjWoFkCLBtkq2iB`.
