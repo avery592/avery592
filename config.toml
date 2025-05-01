@@ -1,4 +1,5 @@
 base_url = "https://avery.st"
+title = "Avery"
 theme = "anemone"
 compile_sass = false
 minify_html = false
